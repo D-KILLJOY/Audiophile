@@ -1,7 +1,7 @@
 import { clsx } from "clsx";
 
 type ButtonProps = {
-    variant?: "primary" | "outline" | "outlineless";
+    variant?: "primary" | "outline";
     children: React.ReactNode;
 } & React.ButtonHTMLAttributes<HTMLButtonElement>;
 
