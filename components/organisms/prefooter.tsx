@@ -7,7 +7,7 @@ import deskImg from "@/public/assets/shared/desktop/image-best-gear.jpg";
 function Prefooter() {
     return (
         <section className="flex justify-center mb-32 md:gap-15.75 md:mb-30 lg:mb-33.75">
-            <section className="grid gap-9 max-w-81.75 md:max-w-172.25 md:15.75 lg:max-w-277.5 lg:grid-cols-2 lg:gap-31.25 lg:items-center">
+            <section className="grid gap-9 max-w-81.75 md:max-w-172.25 md:gap-15.75 lg:max-w-277.5 lg:grid-cols-2 lg:gap-31.25 lg:items-center">
                 <div className="rounded-lg overflow-hidden lg:order-2">
                     <Image
                         src={mobileImg}
